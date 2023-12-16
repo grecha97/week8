@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url(/assets/fonts/Intro/IntroDemo-BlackCAPS.otf);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin text ($color) {
+color: $color;
+font-size: 20px;
+font-family: $font-main;
+font-weight: 300;
+line-height: 32px;
+word-wrap: break-word;
+}
+
+@mixin title ($font-size, $line-height) {
+    color: black;
+    font-size: $font-size;
+    font-family: $font-title;
+    font-weight: 400;
+    line-height: $line-height;
+    word-wrap: break-word;
+}
+
+@mixin btn ($width, $height, $font-size) {
+    width: $width;
+    height: $height;
+    color: white;
+    font-size: $font-size;
+    font-family: Intro;
+    font-weight: 400;
+    word-wrap: break-word
+}
+

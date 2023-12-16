@@ -1,0 +1,24 @@
+@import '../template';
+@import '../vars';
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+
+    .header_container {
+        max-width: 1440px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .logo {
+            flex-basis: 30%;
+            border: 1px solid purple;
+        }
+        .btn-primary {
+            flex-basis: 20%;
+            background-color: $colorDark;
+            border-radius: 10rem;
+            font-family: $font-title;
+        }
+    }
+}

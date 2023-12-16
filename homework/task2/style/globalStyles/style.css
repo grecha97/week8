@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@import url(/assets/fonts/Intro/IntroDemo-BlackCAPS.otf);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+}
+.container .header_container {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .header_container .logo {
+  flex-basis: 30%;
+  border: 1px solid purple;
+}
+.container .header_container .btn-primary {
+  flex-basis: 20%;
+  background-color: #5222D0;
+  border-radius: 10rem;
+  font-family: "Intro";
+}/*# sourceMappingURL=style.css.map */
